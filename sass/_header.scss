@@ -1,0 +1,142 @@
+.link.current::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #2196F3;
+    border-radius: 2px;
+    left: 0;
+    bottom: -33px;
+}
+
+
+
+.site-nav-link {
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    &:last-child {
+            margin-right: 0px;
+        }
+}
+
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-dark {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    &:hover,
+        &:focus {
+            color: #2196F3;
+        }
+}
+
+
+.site-nav .link.current {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.auth-nav .link {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    &:hover,
+        &:focus {
+            color: #2196F3;
+            fill: #2196F3;
+        }
+}
+
+
+
+.auth-nav li {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:last-child {
+            margin-right: 0px;
+        }
+}
+
+
+
+.auth-nav li a {
+    justify-content: center;
+    align-items: center;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 305px;
+
+}
+
+.auth-nav {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    fill: #757575;
+    display: flex;
+    align-items: baseline;
+}
+
+
+.auth-nav-icon {
+    margin-right: 10px;
+
+}
