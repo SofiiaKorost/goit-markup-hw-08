@@ -1,6 +1,6 @@
 .services {
     background-color: #2F303A;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img\(11\).jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backround-hero/bc-mobil-1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,6 +11,42 @@
     @media screen and (min-width: 1200px) {
         padding-top: 200px;
         padding-bottom: 200px;
+    }
+}
+
+@media (min-resolution: 2dppx){
+    .services{
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url(../images/backround-hero/bc-mobil-2x.jpg);
+        
+    }
+}
+
+@media (min-width: 480px) {
+    .services {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url(../images/backround-hero/bc-tablet-1x.jpg);
+    }
+}
+
+@media (min-resolution: 2dppx) {
+    .services {
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/backround-hero/bc-tablet-2x.jpg);
+    }
+}
+
+@media (min-width: 768px) {
+    .services {
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/backround-hero/bc-laptop-1x.jpg);
+    }
+}
+
+@media (min-resolution: 2dppx) {
+    .services {
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/backround-hero/bc-laptop-2x.jpg) ;
     }
 }
 

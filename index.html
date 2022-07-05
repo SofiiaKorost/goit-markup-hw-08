@@ -139,19 +139,28 @@
                 <ul class="work-list list">
                     <li class="work-list__img">
                         <div class="work-list__div">
-                            <img class="work-list__img" src="images/img.jpg" alt="Кодинг" width="370">
+                            <img class="work-list__img" 
+                            srcset="./images/product/box1.jpg 1x, ./images/product/box1-2x.jpg 2x" 
+                            src="images/img.jpg" 
+                            alt="Кодинг" width="370">
                             <p class="work-list__text">Десктопные приложения</p>
                         </div>
                     </li> 
                     <li class="work-list__img">
                         <div class="work-list__div">
-                            <img class="work-list__img"  src="images/img1.jpg" alt="Мобильные приложения" width="370">
+                            <img class="work-list__img" 
+                            srcset="./images/product/box2.jpg 1x, ./images/product/box2-2x.jpg 2x" 
+                            src="images/img1.jpg" 
+                            alt="Мобильные приложения" width="370">
                             <p class="work-list__text">Мобильные приложения</p>
                         </div>
                     </li> 
                     <li class="work-list__img">
                         <div class="work-list__div">
-                            <img class="work-list__img" src="images/box3.jpg" alt="Дизайн" width="370">
+                            <img class="work-list__img"
+                            srcset="./images/product/box3.jpg 1x, ./images/product/box3-2x.jpg 2x" 
+                            src="images/box3.jpg" 
+                            alt="Дизайн" width="370">
                             <p class="work-list__text">Дизайнерские решения</p>
                         </div>
                     </li> 
@@ -164,7 +173,11 @@
         <h2 class="team__title">Наша команда</h2>
         <ul class="team-list list">
             <li class="team-list__item">
-                <img class="team-list__img" src="images/img2.jpg" alt="Член команды" width="270">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="./images/team/team-1.jpg 1x, ./images/team/team-1-2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/team-tablet/t-tabl-1.jpg 1x, ./images/team-tablet/t-tabl-1-2x.jpg 2x">
+                    <img class="team-list__img" srcset="./images/team-mobile/t-mob-1.jpg 1x, ./images/team-mobile/t-mob-1-2x.jpg 2x" src="images/img2.jpg" alt="Член команды" width="270">
+                </picture>
                 <div class="team-div">
                     <h3 class="team-div__title">Игорь Демьяненко</h3>
                     <p class="team-div__text">Product Designer</p>
@@ -201,7 +214,11 @@
                 </ul>
             </li>
             <li class="team-list__item">
-                <img class="team-list__img" src="images/img3.jpg" alt="Член команды" width="270">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="./images/team/team-2.jpg 1x, ./images/team/team-2-2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/team-tablet/t-tabl-2.jpg 1x, ./images/team-tablet/t-tabl-2-2x.jpg 2x">
+                    <img class="team-list__img" srcset="./images/team-mobile/t-mob-2.jpg 1x, ./images/team-mobile/t-mob-2-2x.jpg 2x" src="images/img3.jpg" alt="Член команды" width="270">
+                </picture>
                 <div class="team-div">
                     <h3 class="team-div__title">Ольга Репина</h3>
                     <p class="team-div__text">Frontend Developer</p>
@@ -238,7 +255,11 @@
                 </ul>
             </li>
             <li class="team-list__item">
-                <img class="team-list__img" src="images/img4.jpg" alt="Член команды" width="270">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="./images/team/team-3.jpg 1x, ./images/team/team-3-2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/team-tablet/t-tabl-3.jpg 1x, ./images/team-tablet/t-tabl-3-2x.jpg 2x">
+                    <img class="team-list__img" srcset="./images/team-mobile/t-mob-3.jpg 1x, ./images/team-mobile/t-mob-3-2x.jpg 2x" src="images/img4.jpg" alt="Член команды" width="270">
+                </picture>
                 <div class="team-div">
                     <h3 class="team-div__title">Николай Тарасов</h3>
                     <p class="team-div__text">Marketing</p>
@@ -275,7 +296,11 @@
                 </ul>
             </li>
             <li class="team-list__item">
-                <img class="team-list__img" src="images/img5.jpg" alt="Член команды" width="270">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="./images/team/team-4.jpg 1x, ./images/team/team-4-2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/team-tablet/t-tabl-4.jpg 1x, ./images/team-tablet/t-tabl-4-2x.jpg 2x">
+                    <img class="team-list__img" srcset="./images/team-mobile/t-mob-4.jpg 1x, ./images/team-mobile/t-mob-4-2x.jpg 2x" src="images/img5.jpg" alt="Член команды" width="270">
+                </picture>
                 <div class="team-div">
                     <h3 class="team-div__title">Михаил Ермаков</h3>
                     <p class="team-div__text">UI Designer</p>
